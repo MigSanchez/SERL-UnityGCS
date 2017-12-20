@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ce7f610-965f-44ee-8d13-396de5c1ebcd" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Husky.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Husky.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <marker date="1513721351842" expanded="true" signature="0:324" ph="/* The purpose of Husky.cs is to get keyboard input from the arrow keys. ... */" />
+                <marker date="1513721351842" expanded="true" signature="332:398" ph="..." />
+                <marker date="1513721351842" expanded="true" signature="436:2161" ph="{...}" />
+                <marker date="1513721351842" expanded="true" signature="635:922" ph="{...}" />
+                <marker date="1513721351842" expanded="true" signature="1034:1078" ph="{...}" />
+                <marker date="1513721351842" expanded="true" signature="1082:1267" ph="/* Update is called once per frame in Unity. We use the joystick or cursor keys to generate teleoperational comma ... */" />
+                <marker date="1513721351842" expanded="true" signature="1282:2159" ph="{...}" />
+                <marker date="1513721351842" expanded="true" signature="1389:1463" ph="{...}" />
+                <marker date="1513721351842" expanded="true" signature="1470:1552" ph="{...}" />
+                <marker date="1513721351842" expanded="true" signature="1558:1683" ph="/* Multiplying _dy or _dx by a larger value, increases &quot;speed&quot;. ... */" />
+                <marker date="1513721351842" expanded="true" signature="1785:1934" ph="/* Create a ROS Twist message from the keyboard input. This input/twist message, creates the data that will in tu ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MuteAudioSource.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MuteAudioSource.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="90" lean-forward="false" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+              <folding>
+                <marker date="1513725146775" expanded="false" signature="81:115" ph="..." />
+                <marker date="1513725146775" expanded="true" signature="162:1317" ph="{...}" />
+                <marker date="1513725146775" expanded="true" signature="166:267" ph="/* Allows you to chose which button to implement the script on. ... */" />
+                <marker date="1513725146775" expanded="true" signature="355:782" ph="{...}" />
+                <marker date="1513725146775" expanded="true" signature="869:1116" ph="{...}" />
+                <marker date="1513725146775" expanded="true" signature="875:1035" ph="/* Tells the audioSource variable to toggle the mute functionality of the AudioSource that is assigned to the but ... */" />
+                <marker date="1513725146775" expanded="true" signature="1145:1313" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioStreamSupport.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AudioStream/Scripts/AudioStreamSupport/AudioStreamSupport.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding>
+                <marker date="1510213035000" expanded="true" signature="0:163" ph="/* (c) 2016, 2017 Martin Cvengros. All rights reserved. Redistribution of source code without permission not allo ... */" />
+                <marker date="1510213035000" expanded="false" signature="171:223" ph="..." />
+                <marker date="1510213035000" expanded="true" signature="246:12360" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="422:482" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="632:1095" ph="Unity events" />
+                <marker date="1510213035000" expanded="true" signature="1121:1239" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="1283:12358" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="1446:3773" ph="Logging" />
+                <marker date="1510213035000" expanded="true" signature="1745:2325" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="1797:2124" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="2141:2315" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="2602:3754" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="2665:3082" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="3141:3744" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="3931:8493" ph="audio byte array" />
+                <marker date="1510213035000" expanded="true" signature="4029:4548" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="4073:4538" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="4557:4802" ph="/// stream -&gt; Unity ... " />
+                <marker date="1510213035000" expanded="true" signature="4975:6750" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="5277:6695" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="5501:5618" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="5639:6681" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="5748:6610" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="6818:6928" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="6975:7158" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="7168:7414" ph="/// Unity -&gt; stream ... " />
+                <marker date="1510213035000" expanded="true" signature="7534:8020" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="7762:7966" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="8074:8473" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="8341:8463" ph="/* BitConverter preserves endianess, but is slower.. ... */" />
+                <marker date="1510213035000" expanded="true" signature="8651:10560" ph="Channel count conversions" />
+                <marker date="1510213035000" expanded="true" signature="8760:9570" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="8794:9560" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="9647:10541" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="9681:10531" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="10718:12352" ph="Platform" />
+                <marker date="1510213035000" expanded="true" signature="10743:10903" ph="/// returns true if the project is running on 64-bit architecture, false if 32-bit  ... " />
+                <marker date="1510213035000" expanded="true" signature="10952:11099" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="11109:11319" ph="/// Gets string from native pointer - adopted from FMOD StringHelper which is not public ... " />
+                <marker date="1510213035000" expanded="true" signature="11383:12333" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="11435:11490" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="11611:11665" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="11693:12251" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="11799:12067" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="11915:11999" ph="{...}" />
+                <marker date="1510213035000" expanded="true" signature="12268:12323" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleSmoothMouseLook.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimpleSmoothMouseLook.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+              <folding>
+                <marker date="1433369628000" expanded="true" signature="21:149" ph="/* Very simple smooth mouselook modifier for the MainCamera in Unity ... */" />
+                <marker date="1433369628000" expanded="true" signature="256:3171" ph="{...}" />
+                <marker date="1433369628000" expanded="true" signature="564:728" ph="/* Assign this if there's a parent object controlling motion, such as a Character Controller. ... */" />
+                <marker date="1433369628000" expanded="true" signature="778:1076" ph="{...}" />
+                <marker date="1433369628000" expanded="true" signature="1093:3169" ph="{...}" />
+                <marker date="1433369628000" expanded="true" signature="2781:3002" ph="{...}" />
+                <marker date="1433369628000" expanded="true" signature="3009:3166" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpriteMaker.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpriteMaker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <marker date="1513723048749" expanded="true" signature="0:95" ph="/* SpriteMaker.cs creates our occupancy grid aka MAP. ... */" />
+                <marker date="1513723048749" expanded="true" signature="201:2507" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="291:2505" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="559:718" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="803:1158" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="842:1154" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="864:938" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="972:1045" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="1068:1140" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="1264:1370" ph="/* Create a texture witht the 2Darray values. ... */" />
+                <marker date="1513723048749" expanded="true" signature="1529:1719" ph="/* Itterate throught the 2Darray and instantiate the corresponding colors to the vaules in the 2DArray, ... */" />
+                <marker date="1513723048749" expanded="true" signature="1757:2102" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="1801:2098" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="1836:1900" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="1933:1996" ph="{...}" />
+                <marker date="1513723048749" expanded="true" signature="2029:2093" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WavUtility.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WavUtility.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1510871775000" expanded="false" signature="6:68" ph="..." />
+                <marker date="1510871775000" expanded="true" signature="70:609" ph="/// WAV utility for recording and audio playback functions in Unity. ... " />
+                <marker date="1510871775000" expanded="true" signature="634:13976" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="701:936" ph="/// Load PCM format *.wav audio file (using Unity's Application data path) and convert to AudioClip. ... " />
+                <marker date="1510871775000" expanded="true" signature="991:1470" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="1103:1379" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="1571:3548" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="1577:1698" ph="/* string riff = Encoding.ASCII.GetString (fileBytes, 0, 4); ... */" />
+                <marker date="1510871775000" expanded="true" signature="2250:2367" ph="/* int byteRate = BitConverter.ToInt32 (fileBytes, 28); ... */" />
+                <marker date="1510871775000" expanded="true" signature="2891:3397" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="3551:6929" ph="wav file bytes to Unity AudioClip conversion methods" />
+                <marker date="1510871775000" expanded="true" signature="3720:4173" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="4097:4154" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="4283:5038" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="4770:4888" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="5148:6050" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="5737:5900" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="6160:6916" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="6648:6766" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="6988:7062" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="7197:8621" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="7347:7630" ph="/* NB: Only supports 16 bit ... */" />
+                <marker date="1510871775000" expanded="true" signature="8238:8548" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="8624:12673" ph="write .wav file functions" />
+                <marker date="1510871775000" expanded="true" signature="8734:9378" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="9488:10757" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="10856:11814" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="11890:12411" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="12045:12149" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="12514:12660" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="12676:12868" ph="/// Calculates the bit depth of an AudioClip ... " />
+                <marker date="1510871775000" expanded="true" signature="12921:13218" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="13272:13301" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="13350:13653" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="13374:13650" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="13702:13973" ph="{...}" />
+                <marker date="1510871775000" expanded="true" signature="13722:13970" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayScript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DisplayScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+              <folding>
+                <marker date="1513714418961" expanded="true" signature="0:179" ph="/* Checks to see how many displays are connected and activates each. ... */" />
+                <marker date="1513714418961" expanded="true" signature="243:866" ph="{...}" />
+                <marker date="1513714418961" expanded="true" signature="262:864" ph="{...}" />
+                <marker date="1513714418961" expanded="true" signature="277:422" ph="/* Display.displays[0] is the primary, default display and is always ON. ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetImage.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GetImage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1513721649790" expanded="true" signature="0:442" ph="/* GetImage.cs is responsible for grabing a tecture form ROSbridge's ... */" />
+                <marker date="1513721649790" expanded="false" signature="450:488" ph="..." />
+                <marker date="1513721649790" expanded="true" signature="528:1832" ph="{...}" />
+                <marker date="1513721649790" expanded="true" signature="740:837" ph="{...}" />
+                <marker date="1513721649790" expanded="true" signature="956:1055" ph="{...}" />
+                <marker date="1513721649790" expanded="true" signature="1105:1830" ph="{...}" />
+                <marker date="1513721649790" expanded="true" signature="1111:1196" ph="/* Instantiate a Texture2D, and gives the ... */" />
+                <marker date="1513721649790" expanded="true" signature="1263:1385" ph="/* A WWW instance is given access to a website, in this case the link to the ROSbridge ... */" />
+                <marker date="1513721649790" expanded="true" signature="1616:1772" ph="/* Grabs the image loaded in 'tex' and renders it for visualization in the Unity GameObject that ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleJSON.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MuteAudioSource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Husky.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ROSBridgeLib/std_msgs/StringMsg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AudioStream/Scripts/AudioStreamSupport/AudioStreamSupport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DisplayScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteMaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ROSBridgeLib/ROSBridgeSubscriber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WavUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ROSBridgeLib/SUBTOPIC.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ROSBridgeLib/ROSBridgeWebSocketConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AudioStream/Demo/AudioStream/AudioStreamDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ROSBridgeLib/ROSBridgeMsg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Turtle1ServiceResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleSmoothMouseLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AudioStream/Scripts/Network/IcecastSource/IcecastSource.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/GrabText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GrabTecture.cs" />
+        <option value="$USER_HOME$/Web_video_server1/Assets/NewBehaviourScript.cs" />
+        <option value="$USER_HOME$/VideoFeed2/Assets/Scripts/VideoFeed.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleS2.html" />
+        <option value="$PROJECT_DIR$/Assets/SimpleS3.html" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VideoFeed.cs" />
+        <option value="$USER_HOME$/Downloads/simple.html" />
+        <option value="$PROJECT_DIR$/Assets/SimpleS1.html" />
+        <option value="$PROJECT_DIR$/Assets/SimpleS4.html" />
+        <option value="$PROJECT_DIR$/Assets/NewSimple.html" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OpenURL.cs" />
+        <option value="$PROJECT_DIR$/Assets/HTML/SimpleS3.html" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/HTML/ROSlibjs.html" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MIC Input.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GetMicAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SplitScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SendAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HMTQueryImageRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/AudioStream/Scripts/AudioStreamInput/MuteAudioSource.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveMicWave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SavWav.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WavUtility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FromAudioclip.cs" />
+        <option value="$PROJECT_DIR$/Assets/ROSBridgeLib/ROSBridgeMsg.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SUBTOPIC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TOPICS.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridTopic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Husky.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GetImage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpriteMaker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MuteAudioSource.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="639" />
+    <option name="y" value="22" />
+    <option name="width" value="801" />
+    <option name="height" value="798" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCS HUD (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ce7f610-965f-44ee-8d13-396de5c1ebcd" name="Default" comment="" />
+      <created>1506533972040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506533972040</updated>
+      <workItem from="1506533974351" duration="1051000" />
+      <workItem from="1506548811164" duration="427000" />
+      <workItem from="1507523444701" duration="32000" />
+      <workItem from="1507528062379" duration="1181000" />
+      <workItem from="1507531807311" duration="845000" />
+      <workItem from="1507569096479" duration="7000" />
+      <workItem from="1507569128171" duration="1609000" />
+      <workItem from="1507571039891" duration="4548000" />
+      <workItem from="1507579393719" duration="184000" />
+      <workItem from="1507579608402" duration="703000" />
+      <workItem from="1507580911840" duration="550000" />
+      <workItem from="1507583382254" duration="558000" />
+      <workItem from="1507584422117" duration="1794000" />
+      <workItem from="1507588205821" duration="16000" />
+      <workItem from="1507588236473" duration="342000" />
+      <workItem from="1507588684619" duration="828000" />
+      <workItem from="1507589948412" duration="1168000" />
+      <workItem from="1507599105458" duration="2042000" />
+      <workItem from="1507606536295" duration="431000" />
+      <workItem from="1507659546813" duration="5216000" />
+      <workItem from="1507668781714" duration="22000" />
+      <workItem from="1507755856879" duration="50000" />
+      <workItem from="1507838253799" duration="13000" />
+      <workItem from="1507840064213" duration="16000" />
+      <workItem from="1507843095164" duration="236000" />
+      <workItem from="1507932515459" duration="1091000" />
+      <workItem from="1508784054638" duration="4122000" />
+      <workItem from="1508792547065" duration="116000" />
+      <workItem from="1508792857799" duration="7950000" />
+      <workItem from="1508886910321" duration="504000" />
+      <workItem from="1508910620208" duration="40000" />
+      <workItem from="1509227239323" duration="339000" />
+      <workItem from="1509312120897" duration="7049000" />
+      <workItem from="1509385446003" duration="1058000" />
+      <workItem from="1509387985026" duration="7000" />
+      <workItem from="1509388258227" duration="8484000" />
+      <workItem from="1509559347665" duration="599000" />
+      <workItem from="1509560588629" duration="458000" />
+      <workItem from="1509747729946" duration="234000" />
+      <workItem from="1509749495749" duration="4449000" />
+      <workItem from="1510019806973" duration="1760000" />
+      <workItem from="1510030554133" duration="403000" />
+      <workItem from="1510340393498" duration="1777000" />
+      <workItem from="1510605778016" duration="777000" />
+      <workItem from="1510606573577" duration="1101000" />
+      <workItem from="1510608468487" duration="327000" />
+      <workItem from="1510869811952" duration="2594000" />
+      <workItem from="1511232161465" duration="297000" />
+      <workItem from="1511232513146" duration="589000" />
+      <workItem from="1511233259458" duration="85000" />
+      <workItem from="1511233349052" duration="11000" />
+      <workItem from="1511233378003" duration="1470000" />
+      <workItem from="1512107896071" duration="775000" />
+      <workItem from="1512163433243" duration="1641000" />
+      <workItem from="1512174543832" duration="1373000" />
+      <workItem from="1513714250148" duration="5244000" />
+      <workItem from="1513727149522" duration="64000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="80657000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="639" y="22" width="801" height="798" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04619226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Web_video_server1/Assets/NewBehaviourScript.cs" />
+    <entry file="file://$USER_HOME$/VideoFeed2/Assets/Scripts/VideoFeed.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GrabTecture.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeed.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/simple.html" />
+    <entry file="file://$PROJECT_DIR$/Assets/SimpleS2.html" />
+    <entry file="file://$PROJECT_DIR$/Assets/SimpleS3.html" />
+    <entry file="file://$PROJECT_DIR$/Assets/SimpleS1.html" />
+    <entry file="file://$PROJECT_DIR$/Assets/SimpleS4.html" />
+    <entry file="file://$PROJECT_DIR$/Assets/NewSimple.html" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GrabText.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/OpenURL.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HTML/SimpleS1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HTML/SimpleS2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HTML/SimpleS3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HTML/SimpleS4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HTML/ROSlibjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Husky.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenuStart.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MIC Input.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Turtle1ServiceResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/simple.html" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SplitScreen.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GetMicAudio.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/AudioStream/Scripts/AudioStreamInput/MuteAudioSource.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SendAudio.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/AudioStream/Demo/AudioStream/AudioStreamDemo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HMTQueryImageRequest.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimpleJSON.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SUBTOPIC.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SavWav.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveMicWave.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ROSBridgeLib/SUBTOPIC.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ROSBridgeLib/ROSBridgeSubscriber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="91" lean-forward="false" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ROSBridgeLib/ROSBridgeMsg.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AudioStream/Scripts/Network/IcecastSource/IcecastSource.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1369">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GridTopic.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8130">
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ROSBridgeLib/std_msgs/StringMsg.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ROSBridgeLib/ROSBridgeWebSocketConnection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="107" column="124" lean-forward="false" selection-start-line="107" selection-start-column="124" selection-end-line="107" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FromAudioclip.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DisplayScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+          <folding>
+            <marker date="1513714418961" expanded="true" signature="0:179" ph="/* Checks to see how many displays are connected and activates each. ... */" />
+            <marker date="1513714418961" expanded="true" signature="243:866" ph="{...}" />
+            <marker date="1513714418961" expanded="true" signature="262:864" ph="{...}" />
+            <marker date="1513714418961" expanded="true" signature="277:422" ph="/* Display.displays[0] is the primary, default display and is always ON. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Husky.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1513721351842" expanded="true" signature="0:324" ph="/* The purpose of Husky.cs is to get keyboard input from the arrow keys. ... */" />
+            <marker date="1513721351842" expanded="true" signature="332:398" ph="..." />
+            <marker date="1513721351842" expanded="true" signature="436:2161" ph="{...}" />
+            <marker date="1513721351842" expanded="true" signature="635:922" ph="{...}" />
+            <marker date="1513721351842" expanded="true" signature="1034:1078" ph="{...}" />
+            <marker date="1513721351842" expanded="true" signature="1082:1267" ph="/* Update is called once per frame in Unity. We use the joystick or cursor keys to generate teleoperational comma ... */" />
+            <marker date="1513721351842" expanded="true" signature="1282:2159" ph="{...}" />
+            <marker date="1513721351842" expanded="true" signature="1389:1463" ph="{...}" />
+            <marker date="1513721351842" expanded="true" signature="1470:1552" ph="{...}" />
+            <marker date="1513721351842" expanded="true" signature="1558:1683" ph="/* Multiplying _dy or _dx by a larger value, increases &quot;speed&quot;. ... */" />
+            <marker date="1513721351842" expanded="true" signature="1785:1934" ph="/* Create a ROS Twist message from the keyboard input. This input/twist message, creates the data that will in tu ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimpleSmoothMouseLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          <folding>
+            <marker date="1433369628000" expanded="true" signature="21:149" ph="/* Very simple smooth mouselook modifier for the MainCamera in Unity ... */" />
+            <marker date="1433369628000" expanded="true" signature="256:3171" ph="{...}" />
+            <marker date="1433369628000" expanded="true" signature="564:728" ph="/* Assign this if there's a parent object controlling motion, such as a Character Controller. ... */" />
+            <marker date="1433369628000" expanded="true" signature="778:1076" ph="{...}" />
+            <marker date="1433369628000" expanded="true" signature="1093:3169" ph="{...}" />
+            <marker date="1433369628000" expanded="true" signature="2781:3002" ph="{...}" />
+            <marker date="1433369628000" expanded="true" signature="3009:3166" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpriteMaker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <marker date="1513723048749" expanded="true" signature="0:95" ph="/* SpriteMaker.cs creates our occupancy grid aka MAP. ... */" />
+            <marker date="1513723048749" expanded="true" signature="201:2507" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="291:2505" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="559:718" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="803:1158" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="842:1154" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="864:938" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="972:1045" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="1068:1140" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="1264:1370" ph="/* Create a texture witht the 2Darray values. ... */" />
+            <marker date="1513723048749" expanded="true" signature="1529:1719" ph="/* Itterate throught the 2Darray and instantiate the corresponding colors to the vaules in the 2DArray, ... */" />
+            <marker date="1513723048749" expanded="true" signature="1757:2102" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="1801:2098" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="1836:1900" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="1933:1996" ph="{...}" />
+            <marker date="1513723048749" expanded="true" signature="2029:2093" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TOPICS.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WavUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510871775000" expanded="false" signature="6:68" ph="..." />
+            <marker date="1510871775000" expanded="true" signature="70:609" ph="/// WAV utility for recording and audio playback functions in Unity. ... " />
+            <marker date="1510871775000" expanded="true" signature="634:13976" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="701:936" ph="/// Load PCM format *.wav audio file (using Unity's Application data path) and convert to AudioClip. ... " />
+            <marker date="1510871775000" expanded="true" signature="991:1470" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="1103:1379" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="1571:3548" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="1577:1698" ph="/* string riff = Encoding.ASCII.GetString (fileBytes, 0, 4); ... */" />
+            <marker date="1510871775000" expanded="true" signature="2250:2367" ph="/* int byteRate = BitConverter.ToInt32 (fileBytes, 28); ... */" />
+            <marker date="1510871775000" expanded="true" signature="2891:3397" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="3551:6929" ph="wav file bytes to Unity AudioClip conversion methods" />
+            <marker date="1510871775000" expanded="true" signature="3720:4173" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="4097:4154" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="4283:5038" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="4770:4888" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="5148:6050" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="5737:5900" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="6160:6916" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="6648:6766" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="6988:7062" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="7197:8621" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="7347:7630" ph="/* NB: Only supports 16 bit ... */" />
+            <marker date="1510871775000" expanded="true" signature="8238:8548" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="8624:12673" ph="write .wav file functions" />
+            <marker date="1510871775000" expanded="true" signature="8734:9378" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="9488:10757" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="10856:11814" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="11890:12411" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="12045:12149" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="12514:12660" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="12676:12868" ph="/// Calculates the bit depth of an AudioClip ... " />
+            <marker date="1510871775000" expanded="true" signature="12921:13218" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="13272:13301" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="13350:13653" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="13374:13650" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="13702:13973" ph="{...}" />
+            <marker date="1510871775000" expanded="true" signature="13722:13970" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GetImage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513721649790" expanded="true" signature="0:442" ph="/* GetImage.cs is responsible for grabing a tecture form ROSbridge's ... */" />
+            <marker date="1513721649790" expanded="false" signature="450:488" ph="..." />
+            <marker date="1513721649790" expanded="true" signature="528:1832" ph="{...}" />
+            <marker date="1513721649790" expanded="true" signature="740:837" ph="{...}" />
+            <marker date="1513721649790" expanded="true" signature="956:1055" ph="{...}" />
+            <marker date="1513721649790" expanded="true" signature="1105:1830" ph="{...}" />
+            <marker date="1513721649790" expanded="true" signature="1111:1196" ph="/* Instantiate a Texture2D, and gives the ... */" />
+            <marker date="1513721649790" expanded="true" signature="1263:1385" ph="/* A WWW instance is given access to a website, in this case the link to the ROSbridge ... */" />
+            <marker date="1513721649790" expanded="true" signature="1616:1772" ph="/* Grabs the image loaded in 'tex' and renders it for visualization in the Unity GameObject that ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AudioStream/Scripts/AudioStreamSupport/AudioStreamSupport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <marker date="1510213035000" expanded="true" signature="0:163" ph="/* (c) 2016, 2017 Martin Cvengros. All rights reserved. Redistribution of source code without permission not allo ... */" />
+            <marker date="1510213035000" expanded="false" signature="171:223" ph="..." />
+            <marker date="1510213035000" expanded="true" signature="246:12360" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="422:482" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="632:1095" ph="Unity events" />
+            <marker date="1510213035000" expanded="true" signature="1121:1239" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="1283:12358" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="1446:3773" ph="Logging" />
+            <marker date="1510213035000" expanded="true" signature="1745:2325" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="1797:2124" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="2141:2315" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="2602:3754" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="2665:3082" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="3141:3744" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="3931:8493" ph="audio byte array" />
+            <marker date="1510213035000" expanded="true" signature="4029:4548" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="4073:4538" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="4557:4802" ph="/// stream -&gt; Unity ... " />
+            <marker date="1510213035000" expanded="true" signature="4975:6750" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="5277:6695" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="5501:5618" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="5639:6681" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="5748:6610" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="6818:6928" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="6975:7158" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="7168:7414" ph="/// Unity -&gt; stream ... " />
+            <marker date="1510213035000" expanded="true" signature="7534:8020" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="7762:7966" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="8074:8473" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="8341:8463" ph="/* BitConverter preserves endianess, but is slower.. ... */" />
+            <marker date="1510213035000" expanded="true" signature="8651:10560" ph="Channel count conversions" />
+            <marker date="1510213035000" expanded="true" signature="8760:9570" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="8794:9560" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="9647:10541" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="9681:10531" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="10718:12352" ph="Platform" />
+            <marker date="1510213035000" expanded="true" signature="10743:10903" ph="/// returns true if the project is running on 64-bit architecture, false if 32-bit  ... " />
+            <marker date="1510213035000" expanded="true" signature="10952:11099" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="11109:11319" ph="/// Gets string from native pointer - adopted from FMOD StringHelper which is not public ... " />
+            <marker date="1510213035000" expanded="true" signature="11383:12333" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="11435:11490" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="11611:11665" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="11693:12251" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="11799:12067" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="11915:11999" ph="{...}" />
+            <marker date="1510213035000" expanded="true" signature="12268:12323" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MuteAudioSource.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="90" lean-forward="false" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+          <folding>
+            <marker date="1513725146775" expanded="false" signature="81:115" ph="..." />
+            <marker date="1513725146775" expanded="true" signature="162:1317" ph="{...}" />
+            <marker date="1513725146775" expanded="true" signature="166:267" ph="/* Allows you to chose which button to implement the script on. ... */" />
+            <marker date="1513725146775" expanded="true" signature="355:782" ph="{...}" />
+            <marker date="1513725146775" expanded="true" signature="869:1116" ph="{...}" />
+            <marker date="1513725146775" expanded="true" signature="875:1035" ph="/* Tells the audioSource variable to toggle the mute functionality of the AudioSource that is assigned to the but ... */" />
+            <marker date="1513725146775" expanded="true" signature="1145:1313" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
