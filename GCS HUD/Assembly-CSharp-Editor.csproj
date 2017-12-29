@@ -52,11 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AudioStream\Editor\AudioSourceOutputDeviceEditor.cs" />
-    <Compile Include="Assets\AudioStream\Editor\AudioStreamEditor.cs" />
-    <Compile Include="Assets\Editor\FMODMigrationUtil.cs" />
     <Compile Include="Assets\GoogleVR\Editor\FmodGvrAudioRoomEditor.cs" />
-    <None Include="Assets\AudioStream\!!README1ST!!.txt" />
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -121,13 +117,10 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>/Users/Miguelito/Desktop/Unity Projects/GCS HUD/Assets/ROSBridgeLib/websocket-sharp.dll</HintPath>
+      <HintPath>/Users/Miguelito/Desktop/Unity Projects/Github/GCS HUD/Assets/ROSBridgeLib/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>/Users/Miguelito/Desktop/Unity Projects/GCS HUD/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="OggVorbisEncoder">
-      <HintPath>/Users/Miguelito/Desktop/Unity Projects/GCS HUD/Assets/AudioStream/Scripts/Network/IcecastSource/OggVorbisEncoder.dll</HintPath>
+      <HintPath>/Users/Miguelito/Desktop/Unity Projects/Github/GCS HUD/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

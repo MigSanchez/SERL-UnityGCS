@@ -52,37 +52,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AudioStream\Demo\AudioStream\AudioStreamDemo.cs" />
-    <Compile Include="Assets\AudioStream\Demo\AudioStreamInput\AudioStreamInput2DDemo.cs" />
-    <Compile Include="Assets\AudioStream\Demo\AudioStreamInput\AudioStreamInputDemo.cs" />
-    <Compile Include="Assets\AudioStream\Demo\AudioStreamInput\RMSToTransform.cs" />
-    <Compile Include="Assets\AudioStream\Demo\GVRSpatializer\GVRSoundfieldDemo.cs" />
-    <Compile Include="Assets\AudioStream\Demo\GVRSpatializer\GVRSourceDemo.cs" />
-    <Compile Include="Assets\AudioStream\Demo\GVRSpatializer\ListenerMover.cs" />
-    <Compile Include="Assets\AudioStream\Demo\GVRSpatializer\SmoothMouseLook.cs" />
-    <Compile Include="Assets\AudioStream\Demo\Network\IcecastSourceDemo\IcecastSourceDemo.cs" />
-    <Compile Include="Assets\AudioStream\Demo\OutputDevice\OutputDeviceDemo.cs" />
-    <Compile Include="Assets\AudioStream\Demo\UnitySpatializer\ThreeDDemoCube.cs" />
-    <Compile Include="Assets\AudioStream\Demo\UnitySpatializer\UnitySpatializerDemo.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioSourceOutputDevice\AudioSourceOutputDevice.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStream\AudioStream.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStream\AudioStreamBase.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStream\AudioStreamMinimal.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStreamInput\AudioStreamInput.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStreamInput\AudioStreamInput2D.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStreamInput\AudioStreamInputBase.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStreamSupport\AudioSourceMute.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStreamSupport\AudioStreamSupport.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStreamSupport\Extensions.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStreamSupport\GOAudioSaveToFile.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\AudioStreamSupport\iOSSpeaker.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\GVR\GVRPlugin.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\GVR\GVRSoundfield.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\GVR\GVRSource.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\Network\IcecastSource\IcecastSource.cs" />
-    <Compile Include="Assets\AudioStream\Scripts\Network\IcecastSource\IcecastWriter.cs" />
-    <Compile Include="Assets\GoogleVR\Scripts\Audio\FmodGvrAudio.cs" />
-    <Compile Include="Assets\GoogleVR\Scripts\Audio\FmodGvrAudioRoom.cs" />
     <Compile Include="Assets\ROSBridgeLib\geometry_msgs\TwistMsg.cs" />
     <Compile Include="Assets\ROSBridgeLib\geometry_msgs\Vector3Msg.cs" />
     <Compile Include="Assets\ROSBridgeLib\ROSBridgeMsg.cs" />
@@ -119,7 +88,6 @@
     <Compile Include="Assets\Scripts\Husky.cs" />
     <Compile Include="Assets\Scripts\MuteAudioSource.cs" />
     <Compile Include="Assets\Scripts\SpriteMaker.cs" />
-    <None Include="Assets\AudioStream\!!README1ST!!.txt" />
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -142,13 +110,10 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>/Users/Miguelito/Desktop/Unity Projects/GCS HUD/Assets/ROSBridgeLib/websocket-sharp.dll</HintPath>
+      <HintPath>/Users/Miguelito/Desktop/Unity Projects/Github/GCS HUD/Assets/ROSBridgeLib/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>/Users/Miguelito/Desktop/Unity Projects/GCS HUD/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="OggVorbisEncoder">
-      <HintPath>/Users/Miguelito/Desktop/Unity Projects/GCS HUD/Assets/AudioStream/Scripts/Network/IcecastSource/OggVorbisEncoder.dll</HintPath>
+      <HintPath>/Users/Miguelito/Desktop/Unity Projects/Github/GCS HUD/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
